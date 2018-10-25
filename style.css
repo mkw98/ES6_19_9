@@ -21,3 +21,16 @@ form input, form label {
   padding: 40px;
   font-family: Helvetica;
 }
+#root div >div {
+    flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+#root div > div img {
+  width: 100%;
+  height:100%
+}
+
